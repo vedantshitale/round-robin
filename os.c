@@ -1,8 +1,9 @@
 #include<stdio.h>
+
 int main()
 {
   float avwt;
-  int i,j,num,pt[20],wt[20],twt=0,pr[20],tmp1;
+  int i,j,num,pt[20],wt[30],twt=0,pr[20],tmp1;
   char pa[10][5],tmp[5];
   printf("enter the no of process you want :-");
   scanf("%d",&num);
@@ -10,7 +11,7 @@ int main()
   {
     printf("enter the process %d name:- ",i+1);
     scanf("%s",&pa[i]);
-    printf("enter time requiered for process:- ");
+    printf("enter time required for process:- ");
     scanf("%d",&pt[i]);
     printf("enter priority:");
     scanf("%d",&pr[i]);
